@@ -17,8 +17,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name          = 'fluent-plugin-http-heartbeat'
-  s.version       = '0.0.4'
-  s.date          = '2016-02-28'
+  s.version       = '0.0.5'
+  s.date          = '2018-06-01'
   s.summary       = "Fluentd input plugin that responses with HTTP status 200. Can be used for elb healthcheck."
   s.description   = s.summary
   s.authors       = ['Junjie Chen']
